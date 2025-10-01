@@ -1,10 +1,10 @@
 import streamlit as st
 
-st.title("🎶 Audio Augmentation and Predict Text 🎶")
+st.title("🎶 Audio Augmentation and Speech Recognition 🎶")
 
 # navbar
 with st.sidebar:
-    st.header("🎶 Augmentation Audio and Predict Text 🎶")
+    st.header("🎶 Augmentation Audio and Speech Recognition 🎶")
     
     if st.button("Audio Augmentation"):
         # ketika click langsung diarahkan ke page Upload_Audio
@@ -48,4 +48,5 @@ st.markdown("""
             b. Proses transkripsi dilakukan secara real time.
 
             c. Adanya progress tracking untuk setiap proses yang dilakukan.
+
 """)
