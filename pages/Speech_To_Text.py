@@ -13,7 +13,7 @@ import io
 
 # navbar
 with st.sidebar:
-    st.header("🎶 Augmentation Audio and Predict Text 🎶")
+    st.header("🎶 Augmentation Audio and Speech Recognition 🎶")
     
     if st.button("Dashboard"):
         # ketika click langsung diarahkan ke page Upload_Audio
@@ -87,4 +87,5 @@ if file_path is not None:
         # st.write(f"{predicted_text}")
         
 else:
+
     st.info("Please upload your WAV file!")   
