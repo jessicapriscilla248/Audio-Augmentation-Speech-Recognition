@@ -1,0 +1,17 @@
+streamlit
+torch==2.0.0
+torchaudio==2.0.0
+librosa==0.10.0.post2
+pydub==0.25.1
+soundfile==0.12.1
+numpy==1.22.4
+scipy==1.10.1
+matplotlib==3.7.1
+seaborn==0.12.2
+transformers==4.29.0
+gTTS==2.3.2
+sounddevice==0.4.6
+tensorflow==2.12.0
+tensorflow-datasets==4.8.3
+sklearn-pandas==2.2.0
+glob2==0.7
