@@ -33,19 +33,19 @@ Aplikasi ini adalah project Streamlit yang membantu pengguna untuk melakukan beb
 <img src="\screen\tampilan_3.JPG" alt="Preview" width="600"/>
 Demo app: ada pada link portofolio
 
-## 💾 Manajemen File
+## Manajemen File
 1. Upload audio dengan file WAV
 2. Tersedia preview audio sebelum diubah
 3. Menyimpan file audio yang telah diubah sesuai preferensi pengguna 
 
-## 🧷 Tools yang Digunakan
+## Tools yang Digunakan
 1. Streamlit - Framework aplikasi web
 2. PyTorch - Backend deep learning
 3. TorchAudio - Library pemrosesan audio
 4. Librosa - Analisis dan manipulasi audio
 5. PyDub - Manipulasi file audio
 
-## 🛷 Mesin Speech Recognition
+## Mesin Speech Recognition
 1. Model: Wav2Vec2 dengan CTC decoding
 2. Decoder: Class CTCDecoder custom untuk transkripsi teks yang akurat
 3. Processing: dengan torch.inference_mode()
